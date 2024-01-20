@@ -1,0 +1,104 @@
+
+@media(max-width: 1320px) {
+
+    .header .star_menubar{
+        padding-right: 150px;
+    }
+    .card1,.card2, .cart3{
+        display: none;
+    }
+    .header{
+        margin-bottom: 10px;
+    }
+    .header-1{
+        margin-bottom: 0 !important;
+    }
+   
+}
+
+@media(max-width: 991px) {
+
+    html {
+        font-size: 50%;
+    }
+    .header .container .content-banner p{
+        font-size: 1.4rem;
+    }
+    .header .container .content-banner h5{
+        font-size: 5rem;
+    }
+}
+
+@media(max-width: 768px) {
+
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        padding-bottom: 4rem;
+    }
+    .header .container .content-banner h5{
+        font-size: 4rem;
+    }
+
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .header-1 .star_menubar{
+        position: absolute;
+        top: 10%; right: -100%;
+        background-color: #e2e8f0;
+        width: 30rem; 
+        height: calc(100vh - 9rem);
+        border-radius: 1rem 0 0 0;
+        padding-top: 10px;
+    }
+    .header .header-1 .star_menubar.active{
+        right: 0;
+        transition: .4s ease;
+        z-index: 1000;
+    }
+    .header .header-1 .star_menubar a{
+        color: var(--black); 
+        display: inline-block;
+        margin-left: 4rem;
+        padding: 1.5rem;
+        font-size: 2rem;
+    }
+    .header .header-1 .mr15::before{
+        margin-right: 15px;
+    }
+    .header .header-1 .fontIcon::before{
+        color: #5f798d;
+        font-family: 'Font Awesome 5 Free';
+    }
+
+    .header .header-1 .after-point__home::before{
+        content: '\f007'; 
+    }
+    .header .header-1 .after-point__feature::before{
+        content: '\f6e2'; 
+    }
+    .header .header-1 .after-point__service::before{
+        content: '\f023'; 
+    }
+    .header .header-1 .after-point__resour::before{
+        content: '\f5fd'; 
+    }
+    .header .header-1 .after-point__contact::before{
+        content: '\f086'; 
+    }
+
+    /*  */
+    .clients-logo .slider__brand img{
+       width: 80%;
+    }
+}
+
+@media(max-width: 450px) {
+
+    html {
+        font-size: 35%;
+    }
+}
